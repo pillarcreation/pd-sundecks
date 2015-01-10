@@ -252,7 +252,7 @@
 		min-height: 60px; }
 	label,
 	legend {
-		display: block;
+		
 		font-weight: bold;
 		font-size: 13px;  }
 	select {
@@ -279,5 +279,12 @@
 		text-align: center;
 		margin: 0 auto;
 	}
+
+.cat_button_home {
+	width: 65.7px !important;
+
+}	
+
+	
 
 

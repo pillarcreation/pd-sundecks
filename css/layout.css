@@ -896,6 +896,7 @@
 		font-weight: 600;
 		font-size: 14px;
 		font-family: 'Open Sans', Arial, sans-serif;
+		width: 74.5%;
 	}
 	
 	.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover,
