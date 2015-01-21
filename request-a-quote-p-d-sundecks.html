@@ -1,9 +1,6 @@
 <section class="highlight">
 <section class="container">
-
 <h1>Request a quote.</h1>
-
-
 <div class="six columns">
 <form action="http://pndsundecks.businesscatalyst.com/FormProcessv2.aspx?WebFormID=53012&amp;OID={module_oid}&amp;OTYPE={module_otype}&amp;EID={module_eid}&amp;CID={module_cid}" enctype="multipart/form-data" id="catwebformform15913" method="post" name="catwebformform15913" onsubmit="return checkWholeForm15913(this)">
     <label for="Title">Title</label><br />
@@ -34,7 +31,7 @@
     <input class="cat_textbox" id="HomeCity" maxlength="255" name="HomeCity" type="text" />
     <label for="HomeState">State <span class="req">*</span></label><br />
     <input class="cat_textbox" id="HomeState" maxlength="255" name="HomeState" type="text" />
-
+</form>
 </div>
 <div class="six columns">
 <label for="HomeZip">Zipcode/Postcode <span class="req">*</span></label><br />
@@ -785,12 +782,8 @@ ZIMBABWE
 </select>
 <label for="EmailAddress">Email Address <span class="req">*</span></label><br />
 <input class="cat_textbox" id="EmailAddress" maxlength="255" name="EmailAddress" type="text" />
-
-<label for="HomePhone">Home Phone Number <span class=
-                "req">*</span></label><br>
-                <input class="cat_textbox" id="HomePhone" maxlength="255" name=
-                "HomePhone" type="text">
-
+<label for="HomePhone">Home Phone Number <span class="req">*</span></label><br />
+<input class="cat_textbox" id="HomePhone" maxlength="255" name="HomePhone" type="text" />
 <label for="CAT_Custom_1207220">Tell us a bit about the
 job.</label><br />
 <textarea class="cat_listbox" cols="10" id="CAT_Custom_1207220" name="CAT_Custom_1207220" onkeydown="if(this.value.length&gt;=4000)this.value=this.value.substring(0,3999);" rows="6.75"></textarea>
@@ -804,6 +797,6 @@ job.</label><br />
         var submitcount15913 = 0;function checkWholeForm15913(theForm){var why = "";if (theForm.FirstName) why += isEmpty(theForm.FirstName.value, "First Name"); if (theForm.LastName) why += isEmpty(theForm.LastName.value, "Last Name"); if (theForm.HomeAddress) why += isEmpty(theForm.HomeAddress.value, "Home Address"); if (theForm.HomeCity) why += isEmpty(theForm.HomeCity.value, "Home City"); if (theForm.HomeState) why += isEmpty(theForm.HomeState.value, "Home State"); if (theForm.HomeZip) why += isEmpty(theForm.HomeZip.value, "Home Zipcode"); if (theForm.HomeCountry) why += checkDropdown(theForm.HomeCountry.value, "Home Country"); if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if (theForm.HomePhone) why += isEmpty(theForm.HomePhone.value, "Home Phone Number");
         if(why != ""){alert(why);return false;}if(submitcount15913 == 0){submitcount15913++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
         //]]>
-        </script></form>
+        </script>
 </section><!-- end .container -->
 </section>

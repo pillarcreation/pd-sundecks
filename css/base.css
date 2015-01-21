@@ -279,10 +279,12 @@
 
 	.logo {
 
-		width: 500px;
+		width: auto;
 		height: 100px;
 		text-align: center;
 		margin: 0 auto;
+		margin-top: 10px !important;
+
 	}
 
 .cat_button_home {
